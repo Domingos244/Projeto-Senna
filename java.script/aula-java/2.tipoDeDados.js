@@ -9,8 +9,39 @@ Tipos de Dados -
 
 Estrutura de Dados 
 
-1. Array -> Vetor -> Matriz
+1. Array -> Vetor -> Matriz*/
 
+/*const users = [
+  {
+    nome: "Rodrigo",
+    idade: 25,
+    nomeDoConjuge: "Pamela",
+    id: null,
+  },
+  {
+    nome: "Aline",
+    idade: 30,
+    nomeDoConjuge: "tarcio",
+    id: null,
+  },
+]
+               0    1   2     posição */
+const users = [20, 30, 492]
+
+/*console.log(users[2])*/
+
+users[2] = 489 /* para poder alterar o numero   */
+
+console.log(users) 
+
+
+
+
+
+
+
+
+/*
   const texto1 = "textos com aspas duplas "
   const texto2 ='textos com aspas simples'
   const texto3 = `textos com a crase` //template literals ou template string
@@ -84,5 +115,5 @@ const user = {
 
 console.log(user.tomate) -> vai dar undefined por que não encontrou o tomate ou não tem mesmo*/
 
-  
+
 
