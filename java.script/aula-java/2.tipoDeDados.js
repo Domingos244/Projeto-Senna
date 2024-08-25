@@ -14,7 +14,6 @@ Tipos de Dados -
   console.log(texto2)
   console.log(texto3)
   
-
 const myAge = 30
 
 const myString = `Minha idade é ${myAge}`  //Template literals / Template String
@@ -28,8 +27,6 @@ const fakeNumber = "32 / 2"
 console.log(number1)
 console.log(fakeNumber)
 
-
-
 * vezes
 / divisão
 + mais
@@ -42,5 +39,34 @@ true
 
 let variavel = "234234"
 01011110000101110010
+
+   Objetos -- E vc pode colocar outros objetos dentro de outros objetos 
+   
+
+const name = "Rodrigo Domingos"
+const age = 25
+const address = "Rua dos Bobos, numero Zero"
+
+const rodrigo = {
+  name: "Rodrigo",
+  age: 25,
+  address: {
+       street: "Dos Bobos",
+       number: 0,
+       city: "São Paulo",
+       state: "SP",
+       country: "Brasil"
+  }
+}
+
+/*console.log(rodrigo.address.city)
+
+com o const conseguimos mudar o item da nossa escolha, sem precisar mudar tudo como descrito em baixo
+
+
+rodrigo.address.number = 1
+
+console.log(rodrigo)
 */
- 
+
+
