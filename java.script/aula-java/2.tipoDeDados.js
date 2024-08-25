@@ -4,7 +4,12 @@ Tipos de Dados -
 1. String -> Textos.
 2. numbers -> Números
 3. Boolean -> boleano
+4. Objects -> Objetos 
+5. Null & Undefined -> são ausencia de algum dado ou informação -- Null-nulo -> Undefined -> indefinido
 
+Estrutura de Dados 
+
+1. Array -> Vetor -> Matriz
 
   const texto1 = "textos com aspas duplas "
   const texto2 ='textos com aspas simples'
@@ -67,6 +72,17 @@ com o const conseguimos mudar o item da nossa escolha, sem precisar mudar tudo c
 rodrigo.address.number = 1
 
 console.log(rodrigo)
-*/
 
+     Null & Undefined
+
+const user = {
+  nome: "Rodrigo",
+  idade: 30,
+  nomeDoConjuge: "Pamela",
+  id: null
+}
+
+console.log(user.tomate) -> vai dar undefined por que não encontrou o tomate ou não tem mesmo*/
+
+  
 
